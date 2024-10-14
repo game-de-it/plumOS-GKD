@@ -1,9 +1,10 @@
 <img src="./asset/splash.png" width="640">  
-<img src="./asset/IMG_0122.jpg" width="320">  
-
+  
+<img src="./asset/IMG_0122.jpg" width="320"> <img src="./asset/IMG_0140.jpg" width="320">  
 <img src="./asset/IMG_0123.jpg" width="320"> <img src="./asset/IMG_0125.jpg" width="320">  
 <img src="./asset/IMG_0126.jpg" width="320"> <img src="./asset/IMG_0127.JPG" width="320">  
 <img src="./asset/IMG_0128.JPG" width="320"> <img src="./asset/IMG_0129.JPG" width="320">  
+
 
 [Latest Version 0.1](https://github.com/game-de-it/plumOS-GKD/releases) 
 
