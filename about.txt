@@ -1,0 +1,594 @@
+2024-10-15
+1. Multi- Lanfguage switch sync in dual systems, which can synchronize Language configuration info in both systems
+2. G2X support Multi-Language formate
+3. All the content of  Lovelycgild  have internationalized
+4. Lovelychild  RA supports Multi-Language switch
+
+2024-09-16
+1. Correct the problem of incorrectly activating the performance mode
+2. Update a more stable kernel
+3. Complete the lack of icon
+4. Support dual systems can be used as the startup system
+
+
+2024-06-12
+1. G2X increases the handle key position and defines the information page by default, which is convenient to modify the configuration Bluetooth handle by itself
+2. G2X correction some settings in some settings that increase Y decrease in implementation errors
+3. G2X modify the problem that the vibration does not stop after the modification time
+4. RA increases the logic of all PS kernel automatic settings.
+5. Retroarch modifies the problem of the machine's own key loss after the connection to the connection of some Bluetooth handle
+6. Increase the e -book program koreader
+7. Restart the black screen problem caused by the default brightness after flashing
+8. Fixed the problem of automatic expansion after flashing. Sometimes it does not take effect.
+9. Fixed the problem that the G2X is sometimes the opposite of AB key
+10, upgrade Retroarch to the latest version 1.19.1
+
+2024-05-12
+1. The problem of not using Bluetooth after refusing the machine
+2. Synchronous part of the omissions file
+
+2024-05-10
+1. Correct the problem that the wifi cannot save
+2. Correct the lack of icons of the ES and G2X desktop, increase the custom icon of the Great God
+3. G2X desktop increases Bluetooth adaptation function
+4. Fixed the default sound configuration of the all -around simulator
+5. Supplement the omission of the custom mask file in the original 4.x version
+6. Fixed the dependency of SDL2 to the sound library to solve the sometimes abnormal sound drive
+7. Increase GMU music player connection
+8, G2X amended historical records that cannot be preserved
+9. Adjust the icon layout in G2X
+10. Correct the problem of the PPSSPP simulator R2 key card death
+11. RA correction part of the simulator explosion problem
+12. Correct the problem that the Java simulator cannot be input
+13. Optimize the logic of volume adjustment, which can adjust the output volume of MIDI and other devices simultaneously
+14. G2X desktop optimization supports the external Bluetooth handle operation
+15, G2X unified WIFI and Bluetooth operation button definition
+
+2024-04-22 (version 5.0)
+1. All dynamic library and settings of the entire bottom (700+ library file) system update to the latest version
+2. All kernels (about 100) are updated to the latest version
+3. All independent simulator (about 20) update to the latest version
+4. Adapt to the new sound drive mode
+5, adapt to the new global strong retreat logic, reduce system occupation
+6. RA optimization correction of the configuration of the DOSBOX kernel, further improve the fluency
+Note: The 5.0 version system is not compatible with the original system. Please upgrade and use it newly. The old game card does not affect
+
+
+2023-11-03
+1. RA increases the setting item of the SELECT shortcut keys, reducing the impact of some game operations
+2. The RA setting menu is added to hold down the Select key to support the logic of continuous press, which is convenient for setting keyboard mapping, online IP and other information
+3. PPSSPP upgrade the latest version 1.16.6 version
+4. G2X supports the direction macro required by RA, which is convenient to directly define the direction macro of one -click big move on the machine
+5. Add more help explanation information to the settings in the RA
+6. G2X optimizes input to switch Chinese when it is empty, and input directly when entering non -Yingwen letters
+7. G2X optimize virtual keyboard operation, optimize the logic of the picture manual display
+8. Upgrade Retroarch to the latest 1.16.0.3
+9. RA optimization screen refresh logic and reduce the flash of screen
+10, G2X collection function multiple different records to open the same game, open the same game
+11. Increase the kernel connection of pico8
+12, add scummvm kernel connection
+13. Upgrade PCSX kernel to the latest version
+14. Fix the problem of incorrectly activating the ONS simulator
+
+2023-09-15
+1. The problem that the G2X optimizes the modification of the collection name cannot be used immediately
+2. G2X worry about adding a collection that may occur when the interface may not be refreshed
+3. G2X correction does not need to choose a file that runs directly after exiting.
+4. Increase the original airplane game Ronica AF-84
+5. G2X correction part of the program due to the problem of operating directory caused the problem that the collection and historical records cannot be added normally
+6. G2X Chinese input keyboard layout is changed to a standard keyboard, and the confirmation button supports to directly enter English
+7. RA optimization error information output logic, output more complete error information, facilitate positioning problems
+8. Double -column file manager correction cannot run executable program problems
+9, G2X Chinese input optimization switching keyboard input logic
+
+2023-08-29
+1, G2X supports Chinese input,
+2, G2X collection support directly renames, you can rename it yourself
+
+2023-08-25
+1. Correct the ONS simulator script error, causing the game to be unable to start
+2. Correct the problem of inconsistency between the key mapping of the ONS simulator
+3. Update an ONS simulator manual, you can adjust the support of more games by yourself
+4. After the upgrade, please manually delete the ONScripter program file under each be footer directory in the game disk ONS directory
+
+2023-08-21
+1. G2X correction does not display the game name after the collection
+
+2023-08-15
+1. Correct the problem of Java simulator stuck problem
+2. Add real -time gyroscope status display to the RA settings
+3. Optimization of vibration logic in RA improves efficiency
+4, G2X optimize supports new historical records and collection functions, use the icon customized by Lu Er God
+5. All code is synchronized with ZPGPro, and the new ZPGPro new package is about to be released
+
+2023-07-15
+1. Optimize and upgrade the entire bottom layer to improve overall performance and stability
+2. Retroarch uses OGA to drive incorrect problems
+3. Display the difference between the information of Retroarch and Retroarch 32 -bit version
+4, RA correction compile parameter problem solving the new EasyRPG kernel cannot be loaded.
+5. RA correction jumping calculation incorrectly causes stuttering
+6. System increases the default MIDI sound file
+7. The parameters of the G2X correction performance mode are incorrect.
+8. Easy RPG kernel upgrades the latest version 0.8 version and provide the corresponding BIOS file (you need to manually copy it to the BIOS directory of the game disk)
+9.ra core display name is consistent with the actual file name
+10. Correct the problem that the latest WIFI settings must be restarted after being restarted.
+11. Synchronous PPSSPP simulator to the code of version 1.15.4 on July 3rd
+12. Synchronous Retroarch to July 5th code
+13, the core part of the core optimization charging problem
+14, RA optimize the text layout of the page, the title and prompt information should be displayed as much as possible
+
+
+2023-06-15
+1. G2X increases the ability to set wifi, mainly online or SSH login in use
+2, G2X increases the ability to set the root user password, you need to use SSH when logging in
+3, RA correction cannot be set up with bugs that are issued
+4, RA correction part of the bugs that cannot be accelerated
+5, RA correction part of the case, there is a problem with white edge
+6. RA optimization The parameter range of removing black edges around
+7. Upgrade NESTOPIA, GPSP, SNES9X, MAME2003Plus, PCSX, DOSBOX_SVN kernel to the latest version
+8. Optimize PCSX simulator configuration files to be too smooth, but 2D games sometimes have white edges
+10, G2X game name Gamelist mapping file preferential use of files in the game directory
+11. G2X game browsing does not show preview picture folders
+12, RA correction part of the kernel refresh the image, stuck the problem
+
+
+2023-05-31
+1. RA increases the logic of processing kernel keyboard callback, and solve the problem of some kernel and game keyboard mode.
+2. RA's handle mapping increases support setting to not effective logic, solve the problem of sometimes conflict with keyboard mapping
+3. RA increases the keyboard mapping definition mode of new mahjong games, refer to the configuration description of the usage method
+4, RA correction part of the problem that the kernel cannot save configuration
+5. Double -column file manager adds the function of the setting file to execute the attribute, and solve the problem that sometimes it cannot be executed after copying the program
+6. PPSSPP simulator upgrade to version 1.15.3
+7. Optimize the default configuration file of the system simulator
+8. Fixed PSP Chinese gold finger file error
+9. Upgrade Retroarch to the latest code
+
+2023-04-20
+1. The RA optimization aircraft mode does not trigger the menu Men's mapping when the aircraft key is entered
+2. The RA optimization game compression file contains the problem that the sub -directory causes the game that cannot open the game
+3. Fix the lowest brightness after standing standby to wake up the black screen with sound
+4. Increase the logic of booting charging for compulsory and unable to stand by, and ensure that the charging information is normal
+5. Close the logic of the global automatic deposit loading in Retroarch
+6. Correct the problem of conflict with the desktop of the year of the ES desktop with the ES desktop
+7, modify the problem that sometimes the system is not sounded
+8. Upgrade RA kernel (FBNEO MAME2003-Plus Snes9x Mupen64Plus-NX)
+9. Treatment of the problem of conflicting the path of the SS kernel deposit disk in the middle of childhood, the 32 -bit kernel road diameter was changed to the/SaveStates/Saturn32 of the game disk
+10. Treatment of SFC-NEXT kernel depository path conflict in childhood, the path is changed to the/SAVESTATES/SFC-N of the game disk
+11. Increase the link to the Paralleln64 kernel in childhood
+12. Upgrade Retroarch to the latest version 1.15.0
+13. Fixed the problem of slow reading of Retroarch saving disks
+14, ES increases the logic of calling the childhood Java simulator, and increase the corresponding skin file
+15. Increase the function of the vibration prompt when the recovery system and the desktop switching
+16. The problem of some configuration content when the recovery system is not recovered
+17. Correct the logic that the button pages of the double -column file manager cannot grow.
+
+2023-03-23
+1. Add the new Java simulator. The game jar file needs to be placed in the J2ME folder of the game card. The font file can replace the /storage/jdk/lib/font.ttf file
+
+2023-02-22
+1. Fixed the problem that the 64 -bit Saturn can not be loaded and increase the 32 -bit kernel with better compatibility
+2. Optimize the starting script of the independent Saturn simulator, and support strong retreat logic in the treatment of childhood
+3. Optimize the launch logic of the PSP simulator
+4. Fixed the problem of inconsistencies in the treatment of childhood masks
+
+2023-02-16
+1. Optimize the upgrade of the PPSSPP simulator to the latest February 16th number, blocking the impact of the gyroscope
+2. Upgrade the RA kernel (FBNE MAME MAME MAME MAME MAME2003-Plus Mgba Mupen64Plus-NX Nestopia Beetle-Lynx Beetle-PETLE-FAST Beetle-Saturn Beetle-Supafaut TLE-Supergrafx Beetle-VB Beetle-WSWAN BSNES FCEUMM Gambatte Genesis- Plus-GX Genesis-Plus-GX-Wide Glsl-Shaders Handy Melonds Libretro-Database Meen Neocd_libretro NXENGINE PICODRIVE SWANSTATION
+3. RA optimization supports saving cover configuration information, the mask file is adjusted to/storage/overlays/miniplus directory
+4. Optimize the logic of global forced exit, and press (L1+ST+SEL) at the same time to force exit
+5. Upgrade Retroarch to the latest February 16th code
+6. Treatment of 64 -bit FBNEO arcade kernel links in childhood
+
+
+2023-02-03
+1. Optimize PPSSPP simulator compilation
+2. Optimize the stability of the wifi part
+3. Correct the flashing problem
+
+2023-01-08
+1. Upgrade PPSSPP to the latest version 1.14.4 version
+2. Upgrade RA kernel (Freej2me, Picodrive, MUPEN64PLUS_NEXT, MGBA, Scummvm, Nestopia))
+
+2022-12-30
+1. Upgrade all RA kernels to the latest (December 20th) code
+2. RA adds support for mask settings, and the mask file (png or jpg format) is placed in the /storage/overlays directory
+3. RA corrected the incorrect color of the swastation kernel (PS console)
+4. The swastation kernel in RA adds the ability to automatically adapt cheats
+5. RA optimizes the judging part of the rotating screen
+6, RA burst priority and button logic problem correction
+7, RA fixes the problem of crashing due to forced exit when opening the menu
+8. Upgrade the underlying python of the system to version 3.11
+9. Fixed the problem that the bottom layer cannot use the serial port to debug
+10, Retroarch corrected the logic of auto-loading shortcut keys
+11, Synchronize the PPSSPP simulator to the latest version 1.14.1
+12, Synchronize Retroarch to the latest version 1.14
+13, G2X adds the logic of RA synchronously outputting detailed logs when debugging is enabled
+14. Correct the influence of gyroscope on OpenBOR
+15. Modify OpenBOR to support LNS3.0, and strengthen the vibration
+
+2022-12-02
+1. RA adds the function of simulating the mouse on both the left and right joysticks
+2. RA optimization direction macro operation logic
+3. RA adds multiple setting operation prompt information
+4. The RA direction macro prompt information is changed to a more intuitive direction arrow
+5, RA increases the original integer multiple scaling mode
+6. RA is changed to the mode where direction macro function is prioritized
+7. Added a configurable switch for aircraft mode in RA
+8. Optimize the priority of L3R3 in aircraft mode in RA
+9. Fixed gyroscope problem in RA
+10. Corrected some English menus that are not Chinese in PSP
+
+2022-11-30
+1. Upgrade the main dynamic library at the bottom of the system to the latest version
+2. Upgrade the gcc compiler to the latest version 12.0
+3. Upgrade glibc to the latest version 2.36
+4. Upgrade SDL2 to the latest 2.0.26
+5. Upgrade the PSP emulator to the latest code, support dynamic adjustment of zoom effect
+6. Corrected the error that all controller IDs in the system were incorrectly defined
+7. The latest package provided by ES upgrade supports online upgrade framework (experimental feature)
+8. G2X optimizes the combo mode to long press and wait for a while before it becomes continuous press
+9. On the G2X main page, press up and down to change to cycle browsing to ensure the continuous operation of the combo
+10, RA adds the logic of the direction key analog stick
+11. RA re-optimizes the code for handling the rotation of the joystick to improve performance
+12. RA corrected the problem of deleting the game's own archive when exiting and deleting the archive
+13. RA optimizes the vibration logic to ensure continuous vibration according to the kernel requirements
+14. RA optimizes keyboard macro display and directly displays the corresponding direction information
+
+2022-11-24
+1. G2X unified file selection, wallpaper interface, preview effect and game file preview layout are consistent
+2. Dealing with combo problems in G2X's new input logic
+3. RA does not depend on the go2 library and directly compiles together
+4, RA gyroscope output changed to -1~1 floating point decimal
+5. RA changed the default right turn game to left turn
+6. If RA is a vertical screen game, it will automatically rotate to adapt to the airplane mode
+7. RA directly maps the aircraft key and A B for the default left and right turn games
+8. Completion of direction macro logic missing by RA
+9. RA optimized direction rotation logic
+10. RA corrected the problem that the rotation direction of the joystick and mouse is incorrect
+11. The Jin Yong engine corrected the problem that the characters could not be recovered after they turned black in the battle
+
+2022-11-20
+1. G2X corrected the problem that the game will no longer be at the last exit position after starting up after exiting the game
+2. Fix Jin Yong simulator and game problems
+
+2022-11-16
+1. G2X eliminates all compilation warnings
+2. The logic of G2X unified button duplication check
+
+
+2022-11-16
+1. G2X supports reading English resources to solve internationalization problems
+2. G2XX large font power display is incomplete - OK
+3. G2X functions for editing and browsing strings support scrolling left and right to display too long strings
+4. G2X merged into the new PixelPro theme
+5. The burst logic of RA part is changed to burst priority mode
+
+
+2022-10-28
+1. Support EE's gamelist file or Tianma's directory structure to preview the file format
+2. Adapt to MINIPLUS machine
+3. The input keyboard moves down as a whole
+4. There is no ICON on the file preview search page
+5. The thumbnail adjustment is too small
+6. Add search page icon
+7. Various other details have been modified and adjusted
+
+2022-09-28
+1. G2X adapts to compile with the new SDL version, solving the problem of double-clicking sometimes
+2. G2X fixes the problem of connecting dots with buttons
+3. G2X fixes the problem of the connection point of the joystick
+4. Modify the position of the X key help menu to be centered
+
+2022-09-16
+1. Provide upgrade packages for versions before 20210731 Please use the upgrade packages in the directory before 20210731 for previous versions
+
+2022-05-24
+1. Upgrade the duckstation kernel to the latest swanstation kernel (PS game)
+2. The RA upgrade supports reading the game information of the swanstation kernel to adapt cheats
+
+2022-04-16
+1. Fixed the problem that sometimes some emulators crashed when running
+
+2022-02-16
+1. Fixed the wrong location of the gpsp kernel in the last upgrade package
+2. Increase the public library required by the scummvm kernel to improve compatibility
+
+2022-01-28
+1. RA rewrites the entire underlying sound processing logic to improve performance
+2. RA adds support for sound quality adjustment of the underlying library, which basically avoids the problem of popping sound (stuttering caused by insufficient overall performance cannot be avoided)
+3. RA optimizes the processing logic of cores with more than 60 frames, such as wsc, to ensure normal display and sound
+4. Update the gpsp kernel to solve the problem of abnormal restart sometimes
+5. G2X log output optimization, increase the ability to output logs when abnormal
+
+2022-01-18
+1. RA fixes the problem that the EasyRPG core has no sound
+2. RA sound processing is properly optimized to reduce popping problems
+3. RA increases the display of kernel-defined FPS information
+4. RA adds the display of kernel name and version information
+5. RA adds the logic that the menu does not sleep after the online mode is set
+6. The RA optimization menu does not affect the game operation when exiting the operation judgment
+
+2022-01-10
+1. If the RA cheat name is too long, it will be automatically truncated
+2. The RA setting menu supports displaying submenus
+
+2021-12-27
+1. RA correction framework corrects opengles setting problem and supports more kernel usage
+2. RA corrected duckstation kernel to support opengles mode
+3. RA modifies the widescreen genesis (MD) kernel configuration to adapt to a 3:2 ratio screen
+
+2021-12-22
+1. RA fixes frame issues and supports more cores
+2. Increase duckstation kernel experience
+
+2021-12-13
+1. G2X completely corrected the problem that the sound was not saved after returning to the game
+2. RA cheat function problem correction, support a maximum of 999 cheats
+  
+2021-12-08
+1. G2X fixes the problem that the sound is not saved after the game returns
+2. G2X increases the log output capability to confirm the specific reason why the game cannot be opened.
+   How to use:
+   1) Turn on the "Output Log" switch in the system settings
+   2) Play the execution game again,
+   3) After returning to the desktop, check the specific log content information on the setting page to determine the cause
+2021-07-29
+1. Adjust DC and SS kernel configuration to improve performance
+2. Modify G2X to enter the game and then return to sometimes a problem of restarting twice
+3. Increase G2X's ability to filter game file extensions for case-insensitive
+4. The Chinese language in the G2X manual adds automatic line break capability, no need to set line break
+5. Provide a complete final installation pure version
+6. Open system to adapt to other models
+
+2021-04-23
+1. RA adds the function of direction macro definition to support one-click big moves in fighting games
+
+2021-03-31
+1. The instant save of RA adds the ability to display the save time, which is convenient for judging the latest save
+2. Refresh the ons emulator manual and add support for the game file format description
+
+2021-03-19
+1. G2X adds a history record function to save recently opened programs (default 12, up to 32)
+2. The ability to randomly open games is added in G2X, which is convenient for selecting anxiety disorders. Press the Y key on the game list page, and the system will randomly open a game in the current directory
+3. G2X corrects the problem of multiple loading of background programs to ensure that resources are loaded and released normally
+4. Add the ONS simulator specially customized for PRO, and refer to the corresponding instructions for how to use it
+5. G2X further streamlines useless configuration items and streamlines configuration
+6. Added basic instructions for independent Xianjian and Jinyong engines
+7. RA optimizes the online logic, reduces the stuck situation, and adds the function of pressing F1 to exit forcefully
+8. Add RA setting background, JAVA key description, N64 key description, ONS emulator icon, recent browsing icon with basic shortcut key description for Lure God
+9. Fix PS kernel error problem
+10. According to the new function synchronization system manual, please refer to the content of the manual for detailed instructions
+
+2021-03-11
+1. RA adds online function, which requires wifi version. At present, it mainly supports (FC, MD, arcade and other cores). It is only a test version at present, and there may be various problems
+2. RA optimizes the OPenGL framework to improve the performance of these cores, mainly including: DC, N64 SS, etc. However, the original archives of these cores may no longer be available. If the game cannot be opened after the upgrade, use the file browser to delete the corresponding game in the save directory save file for
+3. RA adds the logic of not loading the automatic save when pressing the F1 key when starting up. If you can’t open the game after upgrading, you can try it
+4. RA adds the ability to display thumbnails (if any, only in png format) before entering the game
+5. The button definition in G2X modification, editing and other functions is wrong
+6, G2X volume setting error correction
+7. G2X corrected the problem that the position of the selected mark in the directory file list in the settings is not accurate
+8. RA optimizes the main loop logic to reduce system consumption
+9. RA adds a new genesis (MD) kernel that supports widescreen, and completes the corresponding BIOS files
+10. Unified integration of all historical version installation files, support for all child version upgrades, some versions may have redundant or invalid icons in the system after the upgrade, just use the file browser to delete them.
+11. According to the new function synchronization system manual, please refer to the manual for detailed instructions
+
+2021-03-06
+1. Upgrade the 64-bit SDL library to improve overall performance
+2. Upgrade Lure's latest modified icon with shadow and three-dimensional effect
+3. The upgrade logic is updated to adapt to more upgrade methods, and the pre-upgrade package is no longer required for subsequent upgrades
+4. G2X adds the ability to set the system date and time, which is convenient for users without wifi to set (because it needs to wait for NTP to time out, it takes a long time to take effect after setting)
+5. Refresh the content of the manual and add the description of the latest added functions
+
+2021-02-21
+1, Fixed the problem that some thumbnails could not be displayed normally in RA
+2, The underlying SDL optimizes compilation to improve system stability
+
+2021-02-12
+1. RA adds the function of manually completing game thumbnails
+2. The logic of displaying the total number of games in the current directory is added to the G2X game list page
+3. G2X adjusts the thumbnail size without affecting the context word information display
+4. RA adjusts the size of all display thumbnails to be scaled proportionally without deformation
+5. Upgrade the latest fba2012 kernel
+6. Upgrade the latest fbn kernel
+7. Upgrade the latest DC kernel
+8. Upgrade the latest mam2010 kernel
+9. Upgrade the latest mame2003_plus kernel
+10. Upgrade the latest mupen64plus_next kernel
+
+2021-02-10
+1. Release the 2021 New Year pure version of Zhi childhood, and organize the entire dynamic library directory to reduce the capacity
+2. Optimize the expansion logic and reduce the invalid space occupied by the system
+
+2021-02-06
+1. RA corrects the redefined functions of Start and Select
+
+question
+2. RA corrects the problem that the prompt information in the settings page blocks the configuration items
+
+2021-02-04
+1. RA adds functions that can be redefined for Start and Select
+2. The FBN32 kernel is updated to the latest version 1.0
+
+2021-02-02
+1. G2X corrected the game manual display information problem
+2, Add N64 operation button manual description
+3. Add PCFX simulator manual
+4. RA fixes the problem of abnormal loading of 3do emulator
+
+2021-01-31
+1. RA fixes the problem that the gen kernel has no sound
+2. RA fixes the problem that 3do has no image. If you have used it before, please delete the automatic save and restart in the RA menu.
+3. Merge into PCFX simulator
+
+2021-01-29
+1, and add 3DO customized icons
+2. Fixed the problem that easy and scummvm help could not be opened yesterday
+ 
+2021-01-28
+1. Merge into 3DO kernel
+2. Update the DC kernel
+3. Combine poketmini kernel and some games
+4. Add the latest scummvm kernel (see the kernel instruction manual for detailed usage of the Y key)
+5. Add the latest easyRPG kernel (see the kernel instruction manual for detailed usage of the Y key)
+6. RA optimization adapts to the new kernel modification
+
+2021-01-21
+1. RA corrected the problem that the gbasp kernel save directory is missing in the 2021 pure version, and the save is not normal
+2, RA updates the gpsp optimization kernel to solve the problem that some games slow down and the color is not normal
+3. Add a new N64 kernel, better compatibility, but a little slower, choose to use
+
+2021-01-20
+1. Upgrade the DC kernel
+2. Fix the problem of slowing down the GB kernel
+3. Adding new N64 core is basically smooth
+
+2021-01-18
+1. RA fixes the problem that PS cheats cannot be loaded partially
+2. RA corrected the problem that the burst settings cannot be set to RA-L1
+3. The Jin Yong engine in the pure version 2021 does not have midi sound effects
+
+2021-01-15
+1. Fix the problem of real-time archiving of gb and gbc games under the mgba kernel
+2. Upgrade the picodrive kernel of md to support acceleration
+3. Upgrade the core of the pce emulator, support acceleration, and support PCE-CD. Note that PCE-CD games need to be loaded through cue files. At the same time, the capitalization of the actual image file name in the cue file must be exactly the same as the final bin or iso file. Otherwise it cannot be loaded normally
+4. Upgrade the latest dosbox kernel
+
+2021-01-11
+1. Corrected the wrong format of the upgrade package, which caused the problem that PSP, Xianjian, etc. could not run after the upgrade
+
+2021-01-08
+Modify the description:
+1. RA modification supports acceleration (some cores)
+2. The fceumm kernel is recompiled to support acceleration
+3. The gpsp kernel is recompiled to support acceleration
+4. The mgba kernel is recompiled to support acceleration
+5. The kernel of nestopia is recompiled to support acceleration
+6. The pcsx kernel is recompiled to support acceleration
+7. Recompile the snes9x kernel, support acceleration, and fix text display problems
+8. Compile GBGBC dedicated kernel gambatte kernel, support acceleration
+9. RA fixes the problem that the SS kernel cannot be started
+10. Use the new version ss kernel
+
+2021-01-02
+Modify the description:
+1, Adjust the dynamic library directory structure to ensure the normal loading of the kernel
+
+2020-12-30
+Modify the description:
+1. The whole framework is compiled and optimized with GCC10.0
+2. Update the latest mgba kernel code
+3. Update the latest pcsx kernel code
+4. Update the latest dc kernel
+5. Update the latest fc kernel
+6. Update the latest md kernel
+7. Update the latest mali GPU library
+
+2020-12-20
+Modify the description:
+1. RA's DOSbox kernel optimization and adaptation: the mouse and keyboard can be simulated normally
+2. The G2X arcade game list supports displaying Chinese game names
+3. The G2X game list supports initial search in English or Simplified Chinese (only for the current directory)
+4. G2X shields the operation of deleting links or groups to prevent misuse
+5. The G2X preview image supports always looking for the root directory, so that the preview image can only be placed in the first-level directory
+6. RA corrects PS kernel configuration errors and optimizes performance
+7. RA corrects the problem that the gyroscope cannot be used, and adds the correction function at the same time
+8. RA adds the configuration of suspending gyroscope output, so that GBA or other correction logic can pass normally
+9. RA refers to the latest official RA1.9 code for overall optimization to improve compatibility and adaptability
+10. RA optimizes the disk replacement logic to improve the success rate of disk replacement
+11. The RA setting menu button processing logic is optimized to prevent double-click errors after pressing
+12, G2X and RA further reduce the minimum brightness value, which is convenient for night use
+13. G2X screen saver supports setting a period of time without automatically turning off the screen to save power
+14. RA adds the logic of automatically turning off the screen after opening the menu without operation for 20s, simulating standby mode to reduce power consumption and recovery requires long pressing the up or down button for more than 1s
+
+2020-11-30
+Modify the description:
+1. The RA XBRZ filter optimizes performance and basically does not affect the game
+2. RA LCD3X filter adjusts the brightness algorithm, no longer white
+3. RA adds logic for each core to save independent configuration information
+4. Partial repair of RA menu flashback problem
+5. RA adds gpsp simulator
+6. RA PS cheats are completed and support automatic matching,
+7. RA updates the latest optimized and compiled PS kernel, and optimizes performance
+8. The RA menu adds the option to delete the automatic archive and exit, to avoid the problem that sometimes the archive error cannot be restarted normally
+9. RA adjusts the burst description information
+10. RA corrected RGB5551 display error
+11. RA adds a joystick to simulate the ABXY key for vertical version of the plane
+12. RA fixes the problem of possible file exceptions when saving to disk
+13. G2X fixes the problem of increasing brightness when returning
+14, RA cheats support packaging as a zip file (procheats.zip) to improve the upgrade speed
+15. RA optimizes the 16-bit color mixing and 32-bit algorithm of all filters to increase color smoothness
+
+
+2020-11-08
+1, RA opens 3 standard scaling modes of the underlying GPU, which can be set in the menu
+2. All RA uses 32-bit color rendering to improve the overall display effect
+3. RA adds XBRZ filter to make old games have high-definition effect
+4. The function buttons of the game in RA can be redefined (need to ensure that they are not repeated)
+5. RA burst mode setting (1+1 2+2 1+2)
+6. The RA gyroscope uses a third-order curve fitting smoothing algorithm to remove abnormal points
+7. RA adds a joystick to simulate a two-button mouse
+8. RA adds Picodrive (MD) and fceumm (nes) kernels
+9. RA supports vibration off
+10, RA enables the button pressed down by the joystick, (requires kernel support)
+11. The RA menu displays the original resolution information of the current game
+12, RA joystick data reading performance optimization, improve the response speed of the joystick
+13. G2X completes some skin icons
+14. RA completely corrected the red line problem of LCD3X filter and added LCD2X filter
+15. RA can rotate the screen 90 degrees in all situations
+16. RA adds keyboard event active reporting mechanism and default keyboard definition (requires kernel support)
+17, RA game save thumbnail display problem fixed
+18. RA modified lodsram to judge the size of the problem, reducing the probability of failure to save
+19. RA adds initialization code for mouse and keyboard simulation
+20, RA button detection mechanism optimization, improve response speed
+21. RA mgba frame skip setting takes effect, but the effect is not great
+22. RA optimizes the logic of access progress
+23. RA optimizes the logic of debug log output to reduce the interference when debugging the kernel
+24. RA corrected the problem that the original images of handheld devices such as lyn and wsc were too small to open the menu
+25. RA modification parameters support turning off the automatic archive function (please refer to the manual to adjust it yourself)
+
+2020-10-28
+1. RA corrects the problem that some kernels cannot use compressed files, uses memory cache to reduce SD card loss (such as md kernel)
+2. G2X corrects the problem that some items in the main interface are not in Chinese
+3, PSP, DC file filter settings correction, add the missing PBP CDI format
+4. Add a PS game icon, which can be used to run games with customized BIOS. Please put each game in a separate subdirectory before use, and then rename the customized BIOS file and put it in this subdirectory to run normally. Other kernels You can refer to the instructions in the advanced user manual for setting
+5. The RA handle setting function is updated to improve the compatibility with the ra kernel
+6. The RA core adds LCD3X filter (some cores take effect)
+7. RA corrected the problem that the PS combination game could not be loaded
+8. Add more PS BIOS files to improve compatibility
+9. RA changed the menu rendering method, opened faster, and all cores can open the settings menu at the same time
+10. The RA exit shortcut key is changed to F1+F2 to reduce accidental touches
+11. The RA menu shortcut key is changed to F1 for easy use
+
+2020-10-19
+1. RA supports compressed files (zip format only, some kernels support it)
+2. G2X adds skin support to specify the logic of LR icon width
+3. RA optimizes the resolution logic, and adjusts the zoom ratio synchronously after removing black borders in smart mode, without deformation
+4. RA optimizes the shortcut key settings and supports more shortcuts
+F2+up: Set the screen display mode to adjust circularly
+F2+down: Rotation mode cycle adjustment (only for vertical screen games)
+F2+Left: cyclically adjust the height of the upper black border removal
+F2+Right: cyclically adjust the height of black edge removal
+F2+ L: Turn on or off the fast forward function (some kernels take effect)
+5. L2/R2 supports the adjustment of the light perception intensity of gba games (mainly used by my sun game)
+6. The default parameters of the DC core in RA are adjusted, and the resolution is changed to 640*480
+7. MD kernel configuration parameter tuning in RA, no more smear
+8. PS kernel parameter tuning, slightly improved performance
+9. G2X adds logic to display version information after upgrade, and provides a separate entry for displaying version information
+10. The VFS file interface in RA is revised to adapt to more kernels
+11, Add LCD3X and XBRZ filter setting menu in RA, the function has not been implemented yet
+12. G2X adds a new Fresh theme
+13. G2X corrected the incomplete display of the last line in the game list interface
+
+
+2020-10-08
+1. RA menu supports internationalization
+2. Optimized cheat reset logic in RA (it will not restart the cheat every time you enter the menu, reducing the probability of crash)
+3, In RA, adjust the picture in real time according to the actual ratio of the core to ensure no deformation
+4. In RA, the problem that the archive saved when exiting cannot be loaded normally when some kernels are started
+5. The problem of modifying the display settings in RA does not take effect. RA supports 3 image modes, which are consistent with the shortcut keys
+6. After modifying the rotation in RA, it can still be stretched proportionally without deformation
+7. The PS kernel parameters are adjusted, and the display is normal
+8. The menu shortcut key in RA is switched to the volume + key to reduce the impact on the game
+9. The setting menu in RA increases the ability to display the current FPS and power (need to be accurate at an interval of more than 10 seconds)
+10. RA supports manual removal of upper and lower black borders
+11. DC kernel parameter adjustment to improve performance
