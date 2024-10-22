@@ -1,16 +1,24 @@
 <img src="./asset/splash.png" width="640">  
   
-<img src="./asset/IMG_0122.jpg" width="320"> <img src="./asset/IMG_0140.jpg" width="320">  
+<img src="./asset/IMG_0122.jpg" width="320"> <img src="./asset/IMG_0162.jpg" width="320">  
 <img src="./asset/IMG_0123.jpg" width="320"> <img src="./asset/IMG_0125.jpg" width="320">  
 <img src="./asset/IMG_0126.jpg" width="320"> <img src="./asset/IMG_0127.JPG" width="320">  
 <img src="./asset/IMG_0128.JPG" width="320"> <img src="./asset/IMG_0129.JPG" width="320">  
+<img src="./asset/IMG_0140.jpg" width="320">  
+
 
 
 [Latest Version 0.2](https://github.com/game-de-it/plumOS-GKD/releases/tag/plumOS_GKDbubble_v0.2) 
 
 ---
 # Introduction
-plumOS-GKD is a custom OS based on StockOS (BBGV5.3 2024-10-15).
+plumOS-GKD is a custom OS based on Bubble's StockOS (BBGV5.3 2024-10-15).  
+The SD image for mini PLUS has some of the contents of Bubble's stockOS applied.  
+
+## Compatible models
+- GKD Bubble
+- GKD mini PLUS
+- [Unconfirmed] GKD Mini PLUS Classic (metal case with analog stick)
 
 ## Download
 [You can download the SD image file from the "Releases page"](https://github.com/game-de-it/plumOS-GKD/releases)
@@ -36,7 +44,7 @@ plumOS-GKD is a custom OS based on StockOS (BBGV5.3 2024-10-15).
 - Emulationstation and gmenu2x can be used as frontends
   - To switch from ES to Gmenu2x, press the SELECT button and run "GO LOVELYCHILD"
   - To switch from Gmenu2x to ES, run the "ES" icon in the Setting section
-- HDMI output is available
+- HDMI output is available(Bubble)
   - Plug or unplug the HDMI cable while the power is off
 - The SD1 side is formatted with EXT4, so use sftp over wifi for file transfer or format SD2 with fat32 (exFAT)
 - SSH and sftp connection accounts:
