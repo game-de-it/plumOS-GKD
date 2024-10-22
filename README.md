@@ -1,9 +1,10 @@
 <img src="./asset/splash.png" width="640">  
   
-<img src="./asset/IMG_0122.jpg" width="320"> <img src="./asset/IMG_0140.jpg" width="320">  
+<img src="./asset/IMG_0122.jpg" width="320"> <img src="./asset/IMG_0162.jpg" width="320">  
 <img src="./asset/IMG_0123.jpg" width="320"> <img src="./asset/IMG_0125.jpg" width="320">  
 <img src="./asset/IMG_0126.jpg" width="320"> <img src="./asset/IMG_0127.JPG" width="320">  
 <img src="./asset/IMG_0128.JPG" width="320"> <img src="./asset/IMG_0129.JPG" width="320">  
+<img src="./asset/IMG_0140.jpg" width="320">  
 
 
 [Latest Version 0.2](https://github.com/game-de-it/plumOS-GKD/releases/tag/plumOS_GKDbubble_v0.2) 
@@ -12,8 +13,15 @@
 # はじめに
 [Click here for the English version of the explanation](./README_EN.md)
 
-plumOS-GKDはStockOS(BBGV5.3 2024-10-15)をベースにカスタムされたOSです
+plumOS-GKDはBubbleのStockOS(BBGV5.3 2024-10-15)をベースにカスタムされたOSです  
+mini PLUSのSDイメージにはBubbleのstockOSの内容が一部適用されています  
 
+## 対応機種
+- GKD Bubble
+- GKD mini PLUS
+- [動作未確認]GKD Mini PLUS Classic(アナログスティック付きのメタル筐体)
+
+- 
 ## ダウンロード
 [「Releasesページ」からSDイメージファイルをダウンロードできます](https://github.com/game-de-it/plumOS-GKD/releases)
 
@@ -38,7 +46,7 @@ plumOS-GKDはStockOS(BBGV5.3 2024-10-15)をベースにカスタムされたOS�
 - フロントエンドにEmulationstationとgmenu2xが利用可能
   - ES->Gmenu2xへ切り替える場合は、SELECTボタンを押して"GO LOVELYCHILD"を実行します
   - Gmenu2x->ESへ切り替える場合は、Settingセクションにある"ES"アイコンを実行します
-- HDMI出力が利用可能
+- HDMI出力が利用可能(Bubble)
   - 電源を切った状態でHDMIケーブルを抜き差ししてください
 - SD1側はEXT4でフォーマットされているため、wifiからsftpで接続してファイル転送をするか、SD2をfat32(exFAT)でフォーマットして利用してください
 - SSH接続およびsftp接続のアカウント
