@@ -21,7 +21,6 @@ mini PLUSのSDイメージにはBubbleのstockOSの内容が一部適用され�
 - GKD mini PLUS
 - [動作未確認]GKD Mini PLUS Classic(アナログスティック付きのメタル筐体)
 
-- 
 ## ダウンロード
 [「Releasesページ」からSDイメージファイルをダウンロードできます](https://github.com/game-de-it/plumOS-GKD/releases)
 
