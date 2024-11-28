@@ -7,7 +7,7 @@
 <img src="./asset/IMG_0140.jpg" width="320">  
 
 
-[Latest Version 0.2](https://github.com/game-de-it/plumOS-GKD/releases/tag/plumOS_GKDbubble_v0.2) 
+[Latest Version 0.3](https://github.com/game-de-it/plumOS-GKD/releases/tag/plumOS_GKD_v0.3) 
 
 ---
 # はじめに
@@ -15,6 +15,8 @@
 
 plumOS-GKDはBubbleのStockOS(BBGV5.3 2024-10-15)をベースにカスタムされたOSです  
 mini PLUSのSDイメージにはBubbleのstockOSの内容が一部適用されています  
+  - [詳しい更新内容はこちらを参照してください](https://github.com/game-de-it/plumOS-GKD/blob/main/about.txt)
+
 
 ## 対応機種
 - GKD Bubble
@@ -25,23 +27,23 @@ mini PLUSのSDイメージにはBubbleのstockOSの内容が一部適用され�
 [「Releasesページ」からSDイメージファイルをダウンロードできます](https://github.com/game-de-it/plumOS-GKD/releases)
 
 ## 更新履歴
-- [NEW] StockOS BBGV5.3 2024-10-15 がベースになりました
-  - [詳しい更新内容はこちらを参照してください](https://github.com/game-de-it/plumOS-GKD/blob/main/about.txt)
-- [NEW] イコライザー機能が利用可能になりました
-  - イコライザー機能を恒久的に無効化したい場合は、Emulationstationのtoolsセクションにある`Equalizer`を実行してください  
-(再度実行するとイコライザー機能が有効になります)
-- [NEW] USB-DACおよびBluetooth-AUDIOアダプタが利用可能になりました
+- [NEW!] picoarchが利用可能になりました
+  - 詳しくは下記のpicoarchの仕様を参照してください
+- [NEW!] pyxelがオンラインアップデートに対応しました
+  - 必ずWifi接続をしてからEmulationstationの`tools`セクションにある`pyxel_update`を実行してください
+- [NEW!] Emulationstationの新しいテーマ`es-theme-epic-cody-english`が追加されました
+  - Thank you tagiositaly
+
+
+## 基本的な機能
+- [pyxel](https://github.com/kitao/pyxel) が利用可能
+- イコライザー機能が利用可能
+  - イコライザー機能を恒久的に無効化したい場合は、Emulationstationの`tools`セクションにある`Equalizer`を実行してください
+- USB-DACおよびBluetooth-AUDIOアダプタが利用可能
   - ゲームを終了した状態でUSB機器を接続してください
   - 動作確認済みBluetooth AUDIOドングル
     - Creative BT-W2
     - GuliKit Route Air
-- [NEW] Retroarchのフィルター、オーバレイが追加されました
-  - [perfect_overlays](https://github.com/ourigen/perfect_overlays)
-  - [muOS_Customization](https://github.com/mugwomp93/muOS_Customization)
-  - [Retro-Overlays](https://github.com/Jeltr0n/Retro-Overlays)
-
-## 基本的な機能
-- [pyxel v2.2.1](https://github.com/kitao/pyxel) が利用可能
 - フロントエンドにEmulationstationとgmenu2xが利用可能
   - ES->Gmenu2xへ切り替える場合は、SELECTボタンを押して"GO LOVELYCHILD"を実行します
   - Gmenu2x->ESへ切り替える場合は、Settingセクションにある"ES"アイコンを実行します
@@ -53,6 +55,7 @@ mini PLUSのSDイメージにはBubbleのstockOSの内容が一部適用され�
 
 ## 既知の問題
 - WifiをONにするとポップノイズが発生することがあるため、必要な時以外はOFFにすることをお勧めします
+- 一部のportmasterのゲームが実行できません
 - スクレイピング機能は利用できません
 
 ## CPUとGPUのパフォーマンスについて
@@ -68,6 +71,44 @@ mini PLUSのSDイメージにはBubbleのstockOSの内容が一部適用され�
 ## 各ボタンの説明
 <img src="./asset/sc01.png" width="320">  
 
+## picoarchの仕様
+- picoarchの利用方法
+  - Emulationstation
+    - ROM選択画面でセレクトボタンを押して`ADVANCED SYSTEM OPTIONS`からエミュレータの選択をしてください  
+      <img src="https://github.com/game-de-it/plumOS-GKD/blob/main/asset/IMG_0370.jpg" width="320">   
+  - LOVELYCHILD(gmenu2x)
+    - `pico`セクションからエミュレータを実行してください  
+      <img src="https://github.com/game-de-it/plumOS-GKD/blob/main/asset/IMG_0371.jpg" width="320">  
+- picoarchのセーブデータの場所
+  - セーブデータなどは`/storage/.config/.picoarch/data`ディレクトリに保存されます。  
+- サポートしているlibretroコア
+
+| libretroコア |  |
+|:-------|-------:|
+|quicknes|beetle_wswan|
+|mgba|snes9x2010|
+|picodrive|pokemini|
+|smsplus-gx|pcsx_rearmed|
+|beetle_ngp|beetle-pce-fast|
+|gambatte||
+
+- picoarchのホットキー
+  - ファストフォーワードを利用できないコアがあります
+
+| Button Combo | Action | 
+|:-----------|------------:|
+| SELECT+START     |      メニュー表示 |
+| SELECT+R       |        ステートセーブ |
+| SELECT+L     |      ステートロード |
+| SELECT+R2     |      ファストフォワード(早送り) |
+| SELECT+L2     |      FPS表示 |
+
+- picoarchの解像度
+
+| 名前 | 解像度 | 
+|:-----------|------------:|
+| picoarch_LD     |  320x240 |
+| picoarch_HD       |  640x480 |
 
 ## Retroarchの仕様
 - セーブファイルおよびステートセーブはromファイルと同じフォルダに作成されます(変更可能)
@@ -93,7 +134,7 @@ mini PLUSのSDイメージにはBubbleのstockOSの内容が一部適用され�
 
 ## retrorunの仕様
 - retrorunのホットキー
-<img src="./asset/setting.png" width="320">  
+<img src="./asset/setting.png" width="320"> 
 
 
 ## 各エミュレータのデータ保存場所
@@ -103,6 +144,7 @@ mini PLUSのSDイメージにはBubbleのstockOSの内容が一部適用され�
 | drastic       |        /storage/.config/drastic |
 | ppsspp       |         /storage/.config/ppsspp |
 | retroarch    |       各romディレクトリ内 |
+| picoarch | /storage/.config/.picoarch/data |
 | その他のEmu      |       /storage/roms/savestates |
 
 
